@@ -1,0 +1,22 @@
+#container{
+  display: flex;
+  height: 95vh;
+  margin: 0;
+}
+#header{
+  height: 5%;
+  background-color: #0f0f0f;
+}
+#sidebar{
+  width: 20%;
+  height: 90%;
+  background-color: #0f0f0f;
+}
+#mainbar{
+  width: 80%;
+  height: 90%;
+  background-color: #0f0f0f;
+}
+ul{
+  text-decoration: none;
+}
