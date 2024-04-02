@@ -6,15 +6,17 @@
 }
 #header{
   padding: 10px 20px;
-  height: 5%;
+  height: 7%;
   background-color: #0f0f0f;
 }
 #sidebar{
+  
   width: 20%;
   height: 90%;
   background-color: #0f0f0f;
 }
 #mainbar{
+ 
   width: 80%;
   height: 90%;
   background-color: #0f0f0f;
@@ -37,30 +39,76 @@ ul li{
 }
 span{
   font-size: smaller;
-  margin-left: 20;
+  margin-left: 10;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .search-box{
   display: flex;
-  
-  justify-content: space-between;
+  justify-content: center;
+
 }
 .search-box input[type="text"] {
-  padding: 6px 8px;
+  
   border: 1px solid #ccc;
   border-radius: 100px;
   font-size: 14px;
-  margin-right: 4px;
-  margin-left: -60;
+  
   width: 400px;
   background-color: #0f0f0f;
-  height: 30px;
+  height: 27px;
+  margin-top: -24;
+  
 }
-.search-box button{
+li .search-icon{
   border: none;
   background-color: transparent;
   cursor: pointer;
-  translate: -500px;
-  margin-top: -5;
+  margin-top: -19;
+  margin-left: -26;
+  
   
 }
 
+//for side bar options
+.shorts-icon img{
+margin-left: 10;
+
+}
+
+ .subs-icon img{
+margin-left: 7;
+
+}
+ .history-icon img{
+margin-left: 7;
+
+ }
+ .you-icon img{
+margin-left: 2;
+
+}
+  
+
+
+  .shorts-icon{
+  margin-bottom: 7;
+  cursor: pointer;
+  }
+  
+   .subs-icon {
+    margin-top: 7;
+  margin-bottom: 7;
+  cursor: pointer;
+  padding-bottom: 10;
+  border-bottom: thin solid #272727;
+  }
+   .history-icon {
+  margin-bottom: 7;
+  cursor: pointer;
+   }
+   .you-icon {
+  margin-bottom: 7;
+  cursor: pointer;
+  }
+
+ 
