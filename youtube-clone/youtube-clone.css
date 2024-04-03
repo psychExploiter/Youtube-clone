@@ -38,6 +38,7 @@ ul li{
   margin-left: 10px;
 }
 span{
+  margin-bottom: 10;
   font-size: smaller;
   margin-left: 10;
   font-family: Arial, Helvetica, sans-serif;
@@ -69,7 +70,7 @@ li .search-icon{
   
 }
 
-//for side bar options
+for side bar options
 .shorts-icon img{
 margin-left: 10;
 
@@ -103,12 +104,84 @@ margin-left: 2;
   border-bottom: thin solid #272727;
   }
    .history-icon {
-  margin-bottom: 7;
+  margin-bottom: 10;
   cursor: pointer;
+  padding-bottom: 10;
+  border-bottom: thin solid #272727;
+
    }
    .you-icon {
   margin-bottom: 7;
   cursor: pointer;
   }
 
- 
+  .trending-icon{
+    border-top: thin solid #272727;
+    margin-top: 10;
+    padding-top: 10;
+    
+  }
+  
+
+  .sign-in-button{
+    color: rgb(1, 179, 250);
+    font-size: smaller;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10;
+    border: thin solid #272727;
+    border-radius: 100px;
+    width: 70;
+    height: 17;
+    padding: 5;
+    display: flex;
+    justify-content: center;
+    
+  }
+ #sign-in-li{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  text-align: left;
+ }
+
+ #categories{
+  display: inline;
+  display: flex;
+  justify-content: start;
+  background-color: aqua;
+  height: 5%;
+ }
+ .All{
+  background-color: white;
+  border: thin solid white;
+  border-radius: 10px;
+  width: 35px;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  justify-content: center;
+  padding-top: 10; 
+ }
+ .music{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: smaller;
+  background-color: #272727;
+  width: 40px;
+  padding: 10;
+  margin-left: 10;
+  border: thin solid #272727;
+  border-radius: 10px;
+  color: white;
+ }
+
+ .pritam-chakraborty{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: smaller;
+  background-color: #272727;
+  width: 200px;
+  padding: 0;
+  margin-left: 0;
+  border: thin solid #272727;
+  border-radius: 10px;
+  color: white;
+ }
